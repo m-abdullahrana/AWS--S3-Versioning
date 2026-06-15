@@ -10,15 +10,15 @@ Hosted the baseline static website using an S3 bucket configured for static webs
 
 ### 2. Enabling S3 Bucket Versioning
 Enabled **Bucket Versioning** from the AWS Management Console to preserve, retrieve, and restore every version of every object stored in the bucket.
-![Enabling Versioning](./v  3  bukt enb.png)
+![Enabling Versioning](./v%20%203%20bukt%20enb.png)
 
 ### 3. Uploading Updated Website File
 Modified the source code locally and uploaded the updated `web.html` file into the destination bucket.
-![Uploading Update](./v  2  update.jpg)
+![Uploading Update](./v%20%202%20update.jpg)
 
 ### 4. Final Live Verification
 Verified the live website endpoint. The updated version (V1) is successfully served, while the older baseline version is safely preserved as a historical object variant in the S3 backend.
-![Final Output](./v1  1.png)
+![Final Output](./v1%20%201.png)
 
 ## 🛠️ Tech Stack
 * **Cloud Provider:** Amazon Web Services (AWS)
